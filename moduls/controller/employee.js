@@ -30,7 +30,7 @@ controller.findByid = function (req, res) {
     })
 }
 
-controller.add = function (req, res, nect) {
+controller.add = function (req, res) {
     var data = req.body
     console.log(data)
     employee.create(data).then( entity => {
@@ -44,7 +44,7 @@ controller.add = function (req, res, nect) {
     })
 }
 
-controller.edit = function (req, res, next) {
+controller.edit = function (req, res) {
     var data = req.params.id
     employee.findOne({where: {id: data}}).then(entity => {
         if (entity) {
