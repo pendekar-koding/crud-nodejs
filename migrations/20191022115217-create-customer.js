@@ -9,10 +9,12 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       cif: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull : false
       },
       first_name: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false
       },
       last_name: {
         type: Sequelize.STRING

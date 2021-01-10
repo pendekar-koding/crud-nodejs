@@ -1,26 +1,29 @@
 {
   "development": {
-    "username": "team5",
-    "password": "password",
-    "database": "team5_db_final_project",
-    "host": "167.99.148.206",
-    "dialect": "mysql",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "crud_nodejs",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
     "operatorsAliases": false
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "crud_nodejs",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "crud_nodejs",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
     "operatorsAliases": false
   }
 }
